@@ -7,7 +7,10 @@ CrewAI, a Python-based open-source framework, simplifies the creation and manage
 
 **Docs:** https://docs.crewai.com/introduction 
 
-## CrewAI + AWS
+## CrewAI + AWS Examples
+
+### [AWS Infrastructure Security Audit Crew](examples/aws-security-audit)
+A comprehensive example demonstrating how to use CrewAI agents to perform security audits of AWS infrastructure, analyze configurations, and generate detailed reports using Claude 3 Sonnet.
 
 ### Importing LLMs from Amazon Bedrock
 
@@ -15,7 +18,7 @@ CrewAI, a Python-based open-source framework, simplifies the creation and manage
 
 **LLM Configuration:** 
 
-```
+```python
 AWS_ACCESS_KEY_ID=<your-access-key>
 AWS_SECRET_ACCESS_KEY=<your-secret-key>
 AWS_DEFAULT_REGION=<your-region>
